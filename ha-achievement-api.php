@@ -35,7 +35,7 @@ function ha_achievement_api_get_updater() {
     require_once $puc_file;
 
     $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-        'https://github.com/mystryx1337/ha-achievement-api/',
+        'https://github.com/alexhaio/ha-achievement-api/',
         __FILE__,
         'ha-achievement-api'
     );
